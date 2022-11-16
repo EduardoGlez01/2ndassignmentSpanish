@@ -1,0 +1,176 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+</style>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&display=swap');
+</style>
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
+    font-size: 16px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ultra', serif;
+}
+
+.titulo {
+font-family: 'Kanit', sans-serif;
+font-size: 30px;
+line-height: 27px;
+
+
+}
+
+.special {
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.balazo {
+font-family: 'Kanit', sans-serif;
+font-size: 18px;
+line-height: 27px;
+}
+
+.figcaption {
+font-family: 'Kanit', sans-serif;
+
+}
+
+
+.firma 
+{
+font-family: 'Kanit', sans-serif;
+font-size: 15px;
+line-height: 10px;
+}
+
+.fecha
+
+{
+font-family: 'Kanit', sans-serif;
+}
+
+.Subt
+{
+font-family: 'Kanit', sans-serif;
+font-size: 20px;
+
+}
+
+.alt {
+font-family: 'Kanit', sans-serif;
+}
+
+
+.modulo {
+font-family: 'Kanit', sans-serif;
+font-size: 18px;
+
+}
+
+.cita {
+font-family: 'Kanit', sans-serif;
+font-size: 16px;
+font-style: italic;
+
+}
+
+.nombrecita {
+font-family: 'Kanit', sans-serif;
+font-size: 14px;
+}
+
+.cargocita {
+font-family: 'Kanit', sans-serif;
+font-size: 13px;
+}
+
+body {
+    background-color: whitesmoke;
+    margin: 30px;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+}
+
+
+/*ADD HERE*/
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+
+.container.photo {
+    padding: 0;
+    max-width: 400px;
+
+}
+
+figure {
+    background-color: whitesmoke;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 5px;
+}
+
+/*ADD HERE*/
+.flex {
+    padding: 5 px;
+}
+
+.flex > div {
+    padding: 5 px;
+}
+
+
+figcaption {
+    margin: 0;
+    font-size: 0.9rem;
+    color: 3333;
+}
+
+.div.quote {
+    margin: 0;
+    font-size: 0.9rem;
+    color: 3333;
+}
+
+@media(min-width: 681px) {
+    
+
+}
+
+@media(min-width: 780px) {
+
+    /*ADD HERE*/
+    .flex {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: whitesmoke;
+    }
+
+    .flex div {
+        flex-basis: 30%;
+        background-color: #F4D03F;
+    }
+
+}
